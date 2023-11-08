@@ -10,7 +10,7 @@ Link do dataset: [Heart Attack Prediction Dataset](https://www.kaggle.com/datase
 
 - ID do paciente - identificador exclusivo de cada paciente (String)
 - Idade - Idade do paciente (int)
-- Sexo - Gênero do paciente (Masculino/Feminino)
+- Sexo - Gênero do paciente (0: Feminino, 1: Masculino)
 - Colesterol - Níveis de colesterol do paciente (int)
 - Pressão Arterial - Pressão arterial do paciente (sistólica/diastólica)
 - Frequência cardíaca - frequência cardíaca do paciente (int)
@@ -31,10 +31,8 @@ Link do dataset: [Heart Attack Prediction Dataset](https://www.kaggle.com/datase
 - Dias de atividade física por semana - Dias de atividade física por semana (int)
 - Horas de sono por dia - Horas de sono por dia (int)
 - País - País do paciente (String)
-- Continente - Continente onde o paciente reside (String)
-- Hemisfério - Hemisfério onde o paciente reside (String)
 - Risco de ataque cardíaco - Presença de risco de ataque cardíaco (1: Sim, 0: Não)
 
 ### Transformação dos Dados e Definição da Variável Alvo
 
-Observando nosso dataset, percebemos que ele já está padronizado como gostaríamos, por isso no momento não vemos necessidade de alterar os dados de alguma coluna da base. O conjunto de dados culmina em um recurso de classificação binária crucial que denota a presença ou ausência de risco de ataque cardíaco, fornecendo um recurso abrangente para análise preditiva e pesquisa em saúde cardiovascular. Por isso, decidimos que a variável alvo para o desenvolvimento do projeto será a coluna "Risco de Ataque Cardíaco" (Heart Attack Risk).
+Observando nosso dataset, percebemos que era necessário alterar a coluna de 'Sexo', que estava como 'Masculino/Feminino' para '0/1'. Outra mudança que obtemos por fazer foi de excluir as colunas 'Continente' e 'Hemisfério', elas geram muita redudância para o que queremos realizar no projeto. O conjunto de dados culmina em um recurso de classificação binária crucial que denota a presença ou ausência de risco de ataque cardíaco, fornecendo um recurso abrangente para análise preditiva e pesquisa em saúde cardiovascular. Por isso, decidimos que a variável alvo para o desenvolvimento do projeto será a coluna "Risco de Ataque Cardíaco" (Heart Attack Risk).
