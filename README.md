@@ -2,7 +2,7 @@
 
 ### Ideia Principal da Escolha do Dataset
 
-O conjunto de dados de previsão de risco de ataque cardíaco serve como um recurso valioso para aprofundar a intrincada dinâmica da saúde cardíaca e seus preditores. Os ataques cardíacos, ou enfartes do miocárdio, continuam a ser um problema de saúde global significativo, necessitando de uma compreensão mais profunda de seus precursores e potenciais fatores atenuantes. Este conjunto de dados engloba uma ampla gama de atributos, incluindo idade, níveis de colesterol, pressão arterial, hábitos de fumar, padrões de exercício, preferências alimentares e muito mais, com o objetivo de elucidar a complexa interação dessas variáveis na determinação da probabilidade de um ataque cardíaco. Ao empregar análises preditivas e aprendizado de máquina neste conjunto de dados, pesquisadores e profissionais de saúde podem trabalhar em estratégias proativas para prevenção e gerenciamento de doenças cardíacas. O conjunto de dados é um testemunho dos esforços coletivos para melhorar a nossa compreensão da saúde cardiovascular e preparar o caminho para um futuro mais saudável.
+O conjunto de dados de previsão de risco de ataque cardíaco serve como um recurso valioso para aprofundar a intrincada dinâmica da saúde cardíaca e seus preditores. Os ataques cardíacos, ou enfartes do miocárdio, continuam a ser um problema de saúde global significativo, necessitando de uma compreensão mais profunda de seus precursores e potenciais fatores atenuantes. Este conjunto de dados engloba uma ampla gama de atributos, incluindo idade, níveis de colesterol, pressão arterial, hábitos de fumar, padrões de exercício, preferências alimentares e muito mais, com o objetivo de elucidar a complexa interação dessas variáveis na determinação da probabilidade de um ataque cardíaco. Ao empregar análises preditivas e aprendizado de máquina neste conjunto de dados, podemos trabalhar em estratégias proativas para prevenção e gerenciamento de doenças cardíacas. O conjunto de dados é um testemunho dos esforços coletivos para melhorar a nossa compreensão da saúde cardiovascular e preparar o caminho para um futuro mais saudável.
 
 Link do dataset: [Heart Attack Prediction Dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/heart-attack-prediction-dataset)
 
@@ -33,6 +33,6 @@ Link do dataset: [Heart Attack Prediction Dataset](https://www.kaggle.com/datase
 - País - País do paciente (String)
 - Risco de ataque cardíaco - Presença de risco de ataque cardíaco (1: Sim, 0: Não)
 
-### Transformação dos Dados e Definição da Variável Alvo
+### Transformação dos Dados e Definição da Variável Target
 
 Observando nosso dataset, percebemos que era necessário alterar a coluna de 'Sexo', que estava como 'Masculino/Feminino' para '0/1'. Outra mudança que obtemos por fazer foi de excluir as colunas 'Continente' e 'Hemisfério', elas geram muita redudância para o que queremos realizar no projeto. O conjunto de dados culmina em um recurso de classificação binária crucial que denota a presença ou ausência de risco de ataque cardíaco, fornecendo um recurso abrangente para análise preditiva e pesquisa em saúde cardiovascular. Por isso, decidimos que a variável alvo para o desenvolvimento do projeto será a coluna "Risco de Ataque Cardíaco" (Heart Attack Risk).
