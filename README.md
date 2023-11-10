@@ -10,7 +10,7 @@ Link do dataset: [Heart Attack Prediction Dataset](https://www.kaggle.com/datase
 
 - ID do paciente - identificador exclusivo de cada paciente (String)
 - Idade - Idade do paciente (int)
-- Sexo - Gênero do paciente (0: Feminino, 1: Masculino)
+- Sexo - Gênero do paciente (0: Masculino, 1: Feminino)
 - Colesterol - Níveis de colesterol do paciente (int)
 - Pressão Arterial - Pressão arterial do paciente (sistólica/diastólica)
 - Frequência cardíaca - frequência cardíaca do paciente (int)
@@ -20,7 +20,7 @@ Link do dataset: [Heart Attack Prediction Dataset](https://www.kaggle.com/datase
 - Obesidade - Status de obesidade do paciente (1: Obeso, 0: Não obeso)
 - Consumo de álcool - Nível de consumo de álcool pelo paciente (1: Sim, 0: Não)
 - Horas de exercício por semana - número de horas de exercício por semana (decimal)
-- Dieta - Hábitos alimentares do paciente (Saudável: 0, Médio: 1, Não saudável: 2)
+- Dieta - Hábitos alimentares do paciente (Não saudável: 0, Médio: 1, Saudável: 2)
 - Problemas cardíacos anteriores - Problemas cardíacos anteriores do paciente (1: Sim, 0: Não)
 - Uso de Medicamentos - Uso de medicamentos pelo paciente (1: Sim, 0: Não)
 - Nível de Estresse - Nível de estresse relatado pelo paciente (int)
