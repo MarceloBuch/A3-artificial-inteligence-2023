@@ -20,7 +20,7 @@ Link do dataset: [Heart Attack Prediction Dataset](https://www.kaggle.com/datase
 - Obesidade - Status de obesidade do paciente (1: Obeso, 0: Não obeso)
 - Consumo de álcool - Nível de consumo de álcool pelo paciente (1: Sim, 0: Não)
 - Horas de exercício por semana - número de horas de exercício por semana (decimal)
-- Dieta - Hábitos alimentares do paciente (Saudável/Médio/Não saudável)
+- Dieta - Hábitos alimentares do paciente (Saudável: 0, Médio: 1, Não saudável: 2)
 - Problemas cardíacos anteriores - Problemas cardíacos anteriores do paciente (1: Sim, 0: Não)
 - Uso de Medicamentos - Uso de medicamentos pelo paciente (1: Sim, 0: Não)
 - Nível de Estresse - Nível de estresse relatado pelo paciente (int)
@@ -35,4 +35,5 @@ Link do dataset: [Heart Attack Prediction Dataset](https://www.kaggle.com/datase
 
 ### Transformação dos Dados e Definição da Variável Target
 
-Observando nosso dataset, percebemos que era necessário alterar a coluna de 'Sexo', que estava como 'Masculino/Feminino' para '0/1'. Outra mudança que optamos por fazer foi de excluir as colunas 'Continente' e 'Hemisfério', elas geram muita redudância para o que queremos realizar no projeto. O conjunto de dados culmina em um recurso de classificação binária crucial que denota a presença ou ausência de risco de ataque cardíaco, fornecendo um recurso abrangente para análise preditiva e pesquisa em saúde cardiovascular. Por isso, decidimos que a variável alvo para o desenvolvimento do projeto será a coluna "Risco de Ataque Cardíaco" (Heart Attack Risk).
+Observando nosso dataset, percebemos que era necessário alterar a coluna de 'Sexo', que estava como 'Masculino/Feminino' para '0/1', alteremos também a coluna 'Dieta' que estava como 'Saudável/Médio/Não saudável' para '0/1/2'. Criamos duas colunas para separar a coluna 'Pressão Arterial', seprando ela em 'systolic' e 'diastolic'. Outra mudança que optamos por excluir as colunas 'ID do paciente', 'País', 'Continente' e 'Hemisfério', elas geram muita redudância para o que queremos realizar no projeto. 
+O conjunto de dados culmina em um recurso de classificação binária crucial que denota a presença ou ausência de risco de ataque cardíaco, fornecendo um recurso abrangente para análise preditiva e pesquisa em saúde cardiovascular. Por isso, decidimos que a variável alvo para o desenvolvimento do projeto será a coluna "Risco de Ataque Cardíaco" (Heart Attack Risk).
