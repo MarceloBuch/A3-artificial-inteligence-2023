@@ -9,18 +9,18 @@ Link do dataset: [Heart Attack Prediction Dataset](https://www.kaggle.com/datase
 ### Dados Detalhados
 
 - ID do paciente - identificador exclusivo de cada paciente (String)
-- Idade - Idade do paciente (int)
+- Idade - Idade do paciente (int) *
 - Sexo - Gênero do paciente (0: Masculino, 1: Feminino)
-- Colesterol - Níveis de colesterol do paciente (int)
-- Pressão Arterial - Pressão arterial do paciente (sistólica/diastólica)
+- Colesterol - Níveis de colesterol do paciente (int) *
+- Pressão Arterial - Pressão arterial do paciente (sistólica/diastólica) *
 - Frequência cardíaca - frequência cardíaca do paciente (int)
 - Diabetes - Se o paciente tem diabetes (1: Sim, 0: Não)
-- História Familiar - História familiar de problemas cardíacos (1: Sim, 0: Não)
-- Tabagismo - Tabagismo do paciente (1: Fumante, 0: Não fumante)
-- Obesidade - Status de obesidade do paciente (1: Obeso, 0: Não obeso)
-- Consumo de álcool - Nível de consumo de álcool pelo paciente (1: Sim, 0: Não)
-- Horas de exercício por semana - número de horas de exercício por semana (decimal)
-- Dieta - Hábitos alimentares do paciente (Não saudável: 0, Médio: 1, Saudável: 2)
+- História Familiar - História familiar de problemas cardíacos (1: Sim, 0: Não) *
+- Tabagismo - Tabagismo do paciente (1: Fumante, 0: Não fumante) *
+- Obesidade - Status de obesidade do paciente (1: Obeso, 0: Não obeso) *
+- Consumo de álcool - Nível de consumo de álcool pelo paciente (1: Sim, 0: Não) *
+- Horas de exercício por semana - número de horas de exercício por semana (decimal) *
+- Dieta - Hábitos alimentares do paciente (Não saudável: 0, Médio: 1, Saudável: 2) *
 - Problemas cardíacos anteriores - Problemas cardíacos anteriores do paciente (1: Sim, 0: Não)
 - Uso de Medicamentos - Uso de medicamentos pelo paciente (1: Sim, 0: Não)
 - Nível de Estresse - Nível de estresse relatado pelo paciente (int)
@@ -28,8 +28,8 @@ Link do dataset: [Heart Attack Prediction Dataset](https://www.kaggle.com/datase
 - Renda - nível de renda do paciente (int)
 - IMC - Índice de Massa Corporal (IMC) do paciente (decimal)
 - Triglicerídeos - Níveis de triglicerídeos do paciente (int)
-- Dias de atividade física por semana - Dias de atividade física por semana (int)
-- Horas de sono por dia - Horas de sono por dia (int)
+- Dias de atividade física por semana - Dias de atividade física por semana (int) *
+- Horas de sono por dia - Horas de sono por dia (int) *
 - País - País do paciente (String)
 - Risco de ataque cardíaco - Presença de risco de ataque cardíaco (1: Sim, 0: Não)
 
